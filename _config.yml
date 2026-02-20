@@ -1,0 +1,17 @@
+title: Playnite Extensions Store
+description: Catalogo delle estensioni Playnite sviluppate da Sassoanarchico
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Metadata
+author: sassoanarchico
+lang: it
+
+# Build settings
+markdown: kramdown
+encoding: UTF-8
+
+# GitHub Pages
+baseurl: ""
+url: "https://sassoanarchico.github.io"
