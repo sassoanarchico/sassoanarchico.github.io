@@ -183,17 +183,48 @@ Estensione per Playnite che consente di cercare, importare e scaricare ROM dal s
 
 ---
 
+### 📂 EmuLibrary (Fork)
+
+**Versione:** 3.5.0  
+**Autore:** psychonic (Fork by sassoanarchico)  
+**Tipo:** Game Library  
+**Status:** ✅ Working
+
+Fork di EmuLibrary con supporto per il nuovo ROM type **RyujinxCopy**, progettato per gestire giochi Nintendo Switch tramite l'emulatore Ryujinx.
+
+#### ✨ Funzionalità Principali
+
+- **RyujinxCopy ROM Type**: Copia intere cartelle di gioco (base + aggiornamenti + DLC) dal disco sorgente a quello di destinazione
+- **Registrazione Automatica Update/DLC**: Configura automaticamente Ryujinx per caricare aggiornamenti e DLC al momento dell'installazione
+- **Deregistrazione Automatica**: Rimuove le configurazioni da Ryujinx quando il gioco viene disinstallato
+- **Path Rewriting Intelligente**: Gestisce il cambio di drive/percorsi delle cartelle sorgente riscrivendo i config esistenti
+- **Rilevamento Base Game**: Identifica automaticamente il file base tramite `[v0]`, Title ID che termina in `000`, o file più grande
+- **Pulizia Nomi**: Estrae nomi puliti da cartelle taggate come `"Game (NSP)(EU)(Base Game)"`
+- **Supporto Windows Copy Dialog**: Usa la finestra di copia nativa di Windows durante l'installazione
+
+#### 📥 Download
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest)
+
+#### 🔗 Link Utili
+
+- [📖 Repository GitHub](https://github.com/sassoanarchico/emulibrary-fork)
+- [📋 Documentazione](https://github.com/sassoanarchico/emulibrary-fork#readme)
+- [🔧 EmuLibrary Originale](https://github.com/psychonic/Playnite-EmuLibrary)
+
+---
+
 ## 📊 Statistiche
 
-**Totale Estensioni:** 6
+**Totale Estensioni:** 7
 
 - **Generic Plugins:** 3
-- **Game Libraries:** 2
+- **Game Libraries:** 3
 - **Metadata Providers:** 1
 
 ### 📈 Status delle Estensioni
 
-- ✅ **Working:** 2 (AllKeyShop Price Monitor, itch.io Metadata Provider)
+- ✅ **Working:** 3 (AllKeyShop Price Monitor, itch.io Metadata Provider, EmuLibrary Fork)
 - ⚠️ **Working (Bugfixing):** 1 (FastInstall)
 - 🚧 **Work in Progress:** 3 (Automation Profile Manager, Ludusavi Playnite, Myrient Library)
 
@@ -240,6 +271,7 @@ Tutte le estensioni sono rilasciate sotto licenza **MIT License**.
 | 🎨 **itch.io Metadata Provider** | ✅ Working | [![Version](https://img.shields.io/github/v/release/sassoanarchico/itchio-metadata-playnite-extension?label=&color=blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata Provider | ✅ Sì | [sassoanarchico/itchio-metadata-playnite-extension](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
 | 💾 **Ludusavi Playnite** | 🚧 Work in Progress | [![Version](https://img.shields.io/github/v/release/sassoanarchico/ludusavi-emulation-playnite?label=&color=orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ❌ No | [sassoanarchico/ludusavi-emulation-playnite](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
 | 🎯 **Myrient Library** | 🚧 Work in Progress<br>(Not working, maybe dismissed) | [![Version](https://img.shields.io/github/v/release/sassoanarchico/myrient-playnite?label=&color=red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ❌ No | [sassoanarchico/myrient-playnite](https://github.com/sassoanarchico/myrient-playnite) |
+| 📂 **EmuLibrary (Fork)** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | ❌ No | [sassoanarchico/emulibrary-fork](https://github.com/sassoanarchico/emulibrary-fork) |
 
 ### 📊 Legenda Status
 
