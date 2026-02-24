@@ -147,7 +147,7 @@ Recupera metadati dei giochi da itch.io tramite web scraping.
 
 ---
 
-### 💾 Ludusavi Playnite
+### 💾 Ludusavi Playnite (Fork)
 
 **Versione:** 0.19.8
 **Autore:** Matthew T. Kennerly (Fork)
