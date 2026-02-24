@@ -305,13 +305,15 @@ Todas las extensiones están publicadas bajo la **MIT License**.
 
 | Extensión | Estado | Versión | Tipo | Sidebar | Idiomas | Repositorio |
 |-----------|--------|---------|------|---------|---------|------------|
-| 🔍 **AllKeyShop** | ✅ Done | [![Version](https://img.shields.io/github/v/release/sassoanarchico/Allkeyshop-playnite-extension?label=&color=blue)](https://github.com/sassoanarchico/Allkeyshop-playnite-extension/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/Allkeyshop-playnite-extension) |
-| ⚙️ **Profile Manager** | 🚧 WIP | [![Version](https://img.shields.io/github/v/release/sassoanarchico/automatic-profile-manager?label=&color=orange)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
-| 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/github/v/release/sassoanarchico/fastinstall-playnite-extension?label=&color=yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
-| 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/github/v/release/sassoanarchico/itchio-metadata-playnite-extension?label=&color=blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
-| 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/github/v/release/sassoanarchico/ludusavi-emulation-playnite?label=&color=orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/github/v/release/sassoanarchico/myrient-playnite?label=&color=red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 🔍 **AllKeyShop** | ✅ Done | [![Version](https://img.shields.io/badge/v1.2.0-blue)](https://github.com/sassoanarchico/Allkeyshop-playnite-extension/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/Allkeyshop-playnite-extension) |
+| ⚙️ **Profile Manager** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.5.0-orange)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
+| 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
+| 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
+| 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
+| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.15.0-red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
 | 📂 **EmuLibrary** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
+
+> **Nota:** Las versiones en la tabla se muestran de forma estática y deben actualizarse manualmente al publicar nuevas versiones. Haz clic en un badge para ver la última release.
 
 ---
 

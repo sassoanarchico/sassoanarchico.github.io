@@ -311,12 +311,12 @@ Tutte le estensioni sono rilasciate sotto licenza **MIT License**.
 
 | Estensione | Status | Versione | Tipo | Sidebar | Traduzioni | Repository |
 |-----------|--------|----------|------|---------|------------|------------|
-| 🔍 **AllKeyShop Price Monitor** | ✅ Done | [![Version](https://img.shields.io/github/v/release/sassoanarchico/Allkeyshop-playnite-extension?label=&color=blue)](https://github.com/sassoanarchico/Allkeyshop-playnite-extension/releases/latest) | Generic Plugin | ✅ | ✅ 5 lingue | [Repo](https://github.com/sassoanarchico/Allkeyshop-playnite-extension) |
-| ⚙️ **Automation Profile Manager** | 🚧 WIP | [![Version](https://img.shields.io/github/v/release/sassoanarchico/automatic-profile-manager?label=&color=orange)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 lingue | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
-| 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/github/v/release/sassoanarchico/fastinstall-playnite-extension?label=&color=yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 lingue | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
-| 🎨 **itch.io Metadata** | ✅ Working | [![Version](https://img.shields.io/github/v/release/sassoanarchico/itchio-metadata-playnite-extension?label=&color=blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 lingue | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
-| 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/github/v/release/sassoanarchico/ludusavi-emulation-playnite?label=&color=orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient Library** | 🚧 WIP | [![Version](https://img.shields.io/github/v/release/sassoanarchico/myrient-playnite?label=&color=red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 🔍 **AllKeyShop Price Monitor** | ✅ Done | [![Version](https://img.shields.io/badge/v1.2.0-blue)](https://github.com/sassoanarchico/Allkeyshop-playnite-extension/releases/latest) | Generic Plugin | ✅ | ✅ 5 lingue | [Repo](https://github.com/sassoanarchico/Allkeyshop-playnite-extension) |
+| ⚙️ **Automation Profile Manager** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.5.0-orange)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 lingue | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
+| 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 lingue | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
+| 🎨 **itch.io Metadata** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 lingue | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
+| 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
+| 🎯 **Myrient Library** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.15.0-red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
 | 📂 **EmuLibrary Fork** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
 
 ### 📊 Legenda Status
@@ -325,7 +325,7 @@ Tutte le estensioni sono rilasciate sotto licenza **MIT License**.
 - ⚠️ **Working (Bugfixing)**: Estensione funzionante ma in fase di correzione bug
 - 🚧 **Work in Progress**: Estensione in sviluppo attivo
 
-> **Nota:** I badge delle versioni nella tabella si aggiornano automaticamente tramite shields.io che recupera l'ultima release pubblicata su GitHub. Clicca sul badge per vedere l'ultima release.
+> **Nota:** I badge delle versioni nella tabella sono visualizzati staticamente e devono essere aggiornati manualmente al rilascio di nuove versioni. Clicca sul badge per vedere l'ultima release.
 
 ---
 
