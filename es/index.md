@@ -52,10 +52,10 @@ Monitorea precios de juegos en AllKeyShop y recibe notificaciones sobre juegos g
 
 ### ⚙️ Automation Profile Manager
 
-**Versión:** 0.5.0
+**Versión:** 0.6.0
 **Autor:** sassoanarchico
 **Tipo:** Generic Plugin
-**Estado:** 🚧 Work in Progress
+**Estado:** ✅ Working (Done)
 **Idiomas:** 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE
 
 Gestiona perfiles de automatización para tus juegos con acciones reutilizables. Ejecuta acciones automáticamente al iniciar o cerrar un juego.
@@ -91,7 +91,7 @@ Gestiona perfiles de automatización para tus juegos con acciones reutilizables.
 **Versión:** 1.3.5
 **Autor:** sassoanarchico
 **Tipo:** Game Library
-**Estado:** ⚠️ Working (Bugfixing)
+**Estado:** ✅ Working (Done)
 
 Archiva juegos en un HDD lento e instálalos rápidamente en un SSD copiando los archivos cuando quieras jugar.
 
@@ -152,7 +152,7 @@ Obtiene metadatos de juegos de itch.io mediante web scraping.
 **Versión:** 0.19.8
 **Autor:** Matthew T. Kennerly (Fork)
 **Tipo:** Generic Plugin
-**Estado:** 🚧 Work in Progress
+**Estado:** ✅ Working (Done)
 
 Plugin de Playnite para hacer copias de seguridad de tus partidas guardadas usando Ludusavi.
 
@@ -183,7 +183,7 @@ Plugin de Playnite para hacer copias de seguridad de tus partidas guardadas usan
 **Versión:** 0.17.0
 **Autor:** sassoanarchico
 **Tipo:** Game Library
-**Estado:** 🚧 Work in Progress
+**Estado:** ✅ Working (Done)
 
 Extensión de Playnite para buscar, importar y descargar ROMs del archivo Myrient.
 
@@ -268,7 +268,7 @@ Fork de EmuLibrary con soporte para el nuevo tipo de ROM **RyujinxCopy**, diseñ
 ### 🌍 Traducciones Disponibles
 
 - **AllKeyShop Price Monitor** (v1.2.0): 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE (~120 claves)
-- **Automation Profile Manager** (v0.5.0): 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE (~265 claves)
+- **Automation Profile Manager** (v0.6.0): 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE (~265 claves)
 - **FastInstall**: 🇬🇧 EN · 🇮🇹 IT
 - **itch.io Metadata Provider**: 🇬🇧 EN · 🇮🇹 IT
 
@@ -312,12 +312,12 @@ Todas las extensiones están publicadas bajo la **MIT License**.
 | Extensión | Estado | Versión | Tipo | Sidebar | Idiomas | Repositorio |
 |-----------|--------|---------|------|---------|---------|------------|
 | 🔍 **AllKeyShop** | ✅ Done | [![Version](https://img.shields.io/badge/v1.2.0-blue)](https://github.com/sassoanarchico/Allkeyshop-playnite-extension/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/Allkeyshop-playnite-extension) |
-| ⚙️ **Profile Manager** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.5.0-orange)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
-| 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
-| 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
-| 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.17.0-orange)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
-| 📂 **EmuLibrary** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
+| ⚙️ **Profile Manager** | ✅ Done | [![Version](https://img.shields.io/badge/v0.6.0-blue)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
+| 🚀 **FastInstall** | ✅ Done | [![Version](https://img.shields.io/badge/v1.3.5-blue)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
+| 🎨 **itch.io** | ✅ Done | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
+| 💾 **Ludusavi** | ✅ Done | [![Version](https://img.shields.io/badge/v0.19.8-blue)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
+| 🎯 **Myrient** | ✅ Done | [![Version](https://img.shields.io/badge/v0.17.0-blue)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 📂 **EmuLibrary** | ✅ Done | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
 
 > **Nota:** Las versiones en la tabla se muestran de forma estática y deben actualizarse manualmente al publicar nuevas versiones. Haz clic en un badge para ver la última release.
 

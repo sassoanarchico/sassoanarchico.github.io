@@ -52,10 +52,10 @@ Willkommen im Katalog meiner Playnite-Erweiterungen! Hier findest du alle Erweit
 
 ### ⚙️ Automation Profile Manager
 
-**Version:** 0.5.0
+**Version:** 0.6.0
 **Autor:** sassoanarchico
 **Typ:** Generic Plugin
-**Status:** 🚧 Work in Progress
+**Status:** ✅ Working (Done)
 **Sprachen:** 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE
 
 Verwalte Automatisierungsprofile für deine Spiele mit wiederverwendbaren Aktionen. Führe automatisch Aktionen beim Starten oder Schließen eines Spiels aus.
@@ -91,7 +91,7 @@ Verwalte Automatisierungsprofile für deine Spiele mit wiederverwendbaren Aktion
 **Version:** 1.3.5
 **Autor:** sassoanarchico
 **Typ:** Game Library
-**Status:** ⚠️ Working (Bugfixing)
+**Status:** ✅ Working (Done)
 
 Archiviere Spiele auf einer langsamen HDD und installiere sie schnell auf einer SSD, indem du die Dateien kopierst, wenn du spielen möchtest.
 
@@ -152,7 +152,7 @@ Ruft Spielmetadaten von itch.io per Web Scraping ab.
 **Version:** 0.19.8
 **Autor:** Matthew T. Kennerly (Fork)
 **Typ:** Generic Plugin
-**Status:** 🚧 Work in Progress
+**Status:** ✅ Working (Done)
 
 Playnite-Plugin zum Sichern deiner Spielstände mit Ludusavi.
 
@@ -183,7 +183,7 @@ Playnite-Plugin zum Sichern deiner Spielstände mit Ludusavi.
 **Version:** 0.17.0
 **Autor:** sassoanarchico
 **Typ:** Game Library
-**Status:** 🚧 Work in Progress
+**Status:** ✅ Working (Done)
 
 Playnite-Erweiterung zum Suchen, Importieren und Herunterladen von ROMs aus dem Myrient-Archiv.
 
@@ -254,7 +254,11 @@ Fork von EmuLibrary mit Unterstützung für den neuen ROM-Typ **RyujinxCopy**, e
 - **Game Libraries:** 3
 - **Metadata Providers:** 1
 
-### 🖥️ Seitenleisten-Panels
+### � Erweiterungs-Status
+
+- ✅ **Funktionsfähig:** 7 (AllKeyShop Price Monitor, Automation Profile Manager, FastInstall, itch.io Metadata Provider, Ludusavi Playnite, Myrient Library, EmuLibrary Fork)
+
+### �🖥️ Seitenleisten-Panels
 
 4 Erweiterungen bieten ein dediziertes Seitenleisten-Panel für schnellen Zugriff direkt in Playnite:
 
@@ -268,7 +272,7 @@ Fork von EmuLibrary mit Unterstützung für den neuen ROM-Typ **RyujinxCopy**, e
 ### 🌍 Verfügbare Übersetzungen
 
 - **AllKeyShop Price Monitor** (v1.2.0): 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE (~120 Schlüssel)
-- **Automation Profile Manager** (v0.5.0): 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE (~265 Schlüssel)
+- **Automation Profile Manager** (v0.6.0): 🇬🇧 EN · 🇮🇹 IT · 🇪🇸 ES · 🇫🇷 FR · 🇩🇪 DE (~265 Schlüssel)
 - **FastInstall**: 🇬🇧 EN · 🇮🇹 IT
 - **itch.io Metadata Provider**: 🇬🇧 EN · 🇮🇹 IT
 
@@ -312,12 +316,12 @@ Alle Erweiterungen sind unter der **MIT License** veröffentlicht.
 | Erweiterung | Status | Version | Typ | Sidebar | Sprachen | Repository |
 |-------------|--------|---------|-----|---------|----------|------------|
 | 🔍 **AllKeyShop** | ✅ Done | [![Version](https://img.shields.io/badge/v1.2.0-blue)](https://github.com/sassoanarchico/Allkeyshop-playnite-extension/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/Allkeyshop-playnite-extension) |
-| ⚙️ **Profile Manager** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.5.0-orange)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
-| 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
-| 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
-| 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.17.0-orange)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
-| 📂 **EmuLibrary** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
+| ⚙️ **Profile Manager** | ✅ Done | [![Version](https://img.shields.io/badge/v0.6.0-blue)](https://github.com/sassoanarchico/automatic-profile-manager/releases/latest) | Generic Plugin | ✅ | ✅ 5 | [Repo](https://github.com/sassoanarchico/automatic-profile-manager) |
+| 🚀 **FastInstall** | ✅ Done | [![Version](https://img.shields.io/badge/v1.3.5-blue)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
+| 🎨 **itch.io** | ✅ Done | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
+| 💾 **Ludusavi** | ✅ Done | [![Version](https://img.shields.io/badge/v0.19.8-blue)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
+| 🎯 **Myrient** | ✅ Done | [![Version](https://img.shields.io/badge/v0.17.0-blue)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 📂 **EmuLibrary** | ✅ Done | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
 
 > **Hinweis:** Die Versionsbadges in der Tabelle werden statisch angezeigt und müssen bei neuen Releases manuell aktualisiert werden. Klicke auf ein Badge, um die neueste Version zu sehen.
 
