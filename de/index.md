@@ -180,7 +180,7 @@ Playnite-Plugin zum Sichern deiner Spielstände mit Ludusavi.
 
 ### 🎯 Myrient Library
 
-**Version:** 0.15.0
+**Version:** 0.17.0
 **Autor:** sassoanarchico
 **Typ:** Game Library
 **Status:** 🚧 Work in Progress
@@ -189,14 +189,20 @@ Playnite-Erweiterung zum Suchen, Importieren und Herunterladen von ROMs aus dem 
 
 #### ✨ Hauptfunktionen
 
-- **ROM-Suche**: Suche einzelne ROMs auf Myrient mit Plattformfilter
+- **ROM-Suche**: Suche einzelne ROMs auf Myrient mit Plattform-, Sprach- und Typfilter
+- **Suchfilter**: Suchergebnisse nach Sprache filtern, Demos ausblenden und Beta-/Alpha-/Prototyp-ROMs ausblenden
 - **Massenimport**: Importiere alle ROMs einer bestimmten Sammlung/Plattform
-- **Direkter Download**: Lade ROMs direkt von Myrient herunter, wenn du auf „Installieren" klickst
+- **Direkter Download**: Lade ROMs direkt von Myrient über aria2c mit 16 parallelen Verbindungen herunter
+- **Download-Fortschritt**: Echtzeit-Fortschrittsfenster mit Geschwindigkeit, Durchschnittsgeschwindigkeit und ETA
+- **Download-Abschluss**: Fortschrittsfenster zeigt eine Abschlusszusammenfassung mit finalen Statistiken vor dem Schließen
+- **Theme-Unterstützung**: Download-UI passt sich automatisch an dein Playnite-Theme an (hell/dunkel)
 - **Dateiorganisation**: Organisiere heruntergeladene Dateien nach Plattform und/oder Sammlung
-- **Integritätsprüfung**: Überprüfe die Integrität heruntergeladener Dateien per Hash
-- **Download-Warteschlange**: Unterstützung für mehrere Downloads mit Warteschlange
+- **Automatische Extraktion**: ZIP-Archive werden nach dem Download automatisch entpackt
+- **Verschachtelte ROM-Erkennung**: Verarbeitet Archive mit verschachtelten Ordnern (z.B. game.zip > game/ > game.nds)
+- **Emulator-Konfiguration**: Plattformspezifische Emulator-Einrichtung wird nach der Installation automatisch angewendet
 - **Unterstützte Sammlungen**: Unterstützung für No-Intro, Redump und andere Sammlungen
-- **Seitenleiste**: Dediziertes Seitenleisten-Panel mit aktiven Downloads und deiner Myrient-Bibliothek; suche, installiere und deinstalliere Spiele direkt im Panel
+- **Plattform-Bereinigung**: Ungültige Plattformeinträge (z.B. /README, /files) werden automatisch herausgefiltert
+- **Seitenleiste**: Seitenleisten-Panel mit aktiven Downloads und deiner Myrient-Bibliothek
 
 #### 📥 Herunterladen
 
@@ -310,7 +316,7 @@ Alle Erweiterungen sind unter der **MIT License** veröffentlicht.
 | 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
 | 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
 | 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.15.0-red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.17.0-orange)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
 | 📂 **EmuLibrary** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
 
 > **Hinweis:** Die Versionsbadges in der Tabelle werden statisch angezeigt und müssen bei neuen Releases manuell aktualisiert werden. Klicke auf ein Badge, um die neueste Version zu sehen.

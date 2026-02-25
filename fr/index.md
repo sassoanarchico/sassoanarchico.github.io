@@ -180,7 +180,7 @@ Plugin Playnite pour sauvegarder vos parties enregistrées avec Ludusavi.
 
 ### 🎯 Myrient Library
 
-**Version :** 0.15.0
+**Version :** 0.17.0
 **Auteur :** sassoanarchico
 **Type :** Game Library
 **Statut :** 🚧 Work in Progress
@@ -189,14 +189,20 @@ Extension Playnite pour rechercher, importer et télécharger des ROMs depuis l'
 
 #### ✨ Fonctionnalités Principales
 
-- **Recherche de ROMs** : Recherchez des ROMs individuelles sur Myrient avec filtre par plateforme
+- **Recherche de ROMs** : Recherchez des ROMs individuelles sur Myrient avec filtre par plateforme, langue et type
+- **Filtres de Recherche** : Filtrez les résultats par langue, masquez les démos et masquez les ROMs bêta/alpha/prototype
 - **Importation en Masse** : Importez toutes les ROMs d'une collection/plateforme spécifique
-- **Téléchargement Direct** : Téléchargez des ROMs directement depuis Myrient en cliquant sur « Installer »
+- **Téléchargement Direct** : Téléchargez des ROMs directement depuis Myrient via aria2c avec 16 connexions parallèles
+- **Progression du Téléchargement** : Fenêtre en temps réel avec vitesse, vitesse moyenne et temps restant
+- **Fin de Téléchargement** : La fenêtre de progression affiche un résumé final avec les statistiques avant la fermeture
+- **Support des Thèmes** : L'interface de téléchargement s'adapte automatiquement au thème Playnite (clair/sombre)
 - **Organisation des Fichiers** : Organisez les fichiers téléchargés par plateforme et/ou collection
-- **Vérification d'Intégrité** : Vérifiez l'intégrité des fichiers téléchargés via hash
-- **File de Téléchargement** : Support pour téléchargements multiples avec file
+- **Extraction Automatique** : Les archives ZIP sont extraites automatiquement après le téléchargement
+- **Détection ROMs Imbriquées** : Gère les archives avec dossiers imbriqués (ex. game.zip > game/ > game.nds)
+- **Config Émulateur** : Configuration émulateur par plateforme appliquée automatiquement après l'installation
 - **Collections Supportées** : Support pour No-Intro, Redump et autres collections
-- **Panneau Latéral** : Panneau latéral dédié affichant les téléchargements actifs et votre bibliothèque Myrient ; recherchez, installez et désinstallez des jeux directement depuis le panneau
+- **Nettoyage des Plateformes** : Les entrées de plateforme invalides (ex. /README, /files) sont filtrées automatiquement
+- **Panneau Latéral** : Panneau latéral dédié avec téléchargements actifs et votre bibliothèque Myrient
 
 #### 📥 Télécharger
 
@@ -310,7 +316,7 @@ Toutes les extensions sont publiées sous licence **MIT License**.
 | 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Dépôt](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
 | 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Dépôt](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
 | 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Dépôt](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.15.0-red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Dépôt](https://github.com/sassoanarchico/myrient-playnite) |
+| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.17.0-orange)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Dépôt](https://github.com/sassoanarchico/myrient-playnite) |
 | 📂 **EmuLibrary** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Dépôt](https://github.com/sassoanarchico/emulibrary-fork) |
 
 > **Note :** Les versions dans le tableau sont affichées de manière statique et doivent être mises à jour manuellement lors de la publication de nouvelles versions. Cliquez sur un badge pour voir la dernière release.

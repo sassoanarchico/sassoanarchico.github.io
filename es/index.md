@@ -180,7 +180,7 @@ Plugin de Playnite para hacer copias de seguridad de tus partidas guardadas usan
 
 ### 🎯 Myrient Library
 
-**Versión:** 0.15.0
+**Versión:** 0.17.0
 **Autor:** sassoanarchico
 **Tipo:** Game Library
 **Estado:** 🚧 Work in Progress
@@ -189,14 +189,20 @@ Extensión de Playnite para buscar, importar y descargar ROMs del archivo Myrien
 
 #### ✨ Características Principales
 
-- **Búsqueda de ROMs**: Busca ROMs individuales en Myrient con filtro por plataforma
+- **Búsqueda de ROMs**: Busca ROMs individuales en Myrient con filtro por plataforma, idioma y tipo
+- **Filtros de Búsqueda**: Filtra los resultados por idioma, oculta demos y oculta ROMs beta/alpha/prototype
 - **Importación Masiva**: Importa todas las ROMs de una colección/plataforma específica
-- **Descarga Directa**: Descarga ROMs directamente desde Myrient al hacer clic en "Instalar"
+- **Descarga Directa**: Descarga ROMs directamente desde Myrient a través de aria2c con 16 conexiones paralelas
+- **Progreso de Descarga**: Ventana en tiempo real con velocidad, velocidad media y tiempo restante
+- **Finalización de Descarga**: La ventana de progreso muestra un resumen final con estadísticas antes de cerrarse
+- **Soporte de Tema**: La interfaz de descarga se adapta automáticamente al tema de Playnite (claro/oscuro)
 - **Organización de Archivos**: Organiza los archivos descargados por plataforma y/o colección
-- **Verificación de Integridad**: Verifica la integridad de los archivos descargados mediante hash
-- **Cola de Descargas**: Soporte para múltiples descargas con cola
+- **Extracción Automática**: Los archivos ZIP se extraen automáticamente después de la descarga
+- **Detección de ROMs Anidadas**: Maneja archivos con carpetas anidadas (ej. game.zip > game/ > game.nds)
+- **Config Emulador**: Configuración de emulador por plataforma aplicada automáticamente tras la instalación
 - **Colecciones Soportadas**: Soporte para No-Intro, Redump y otras colecciones
-- **Panel Lateral**: Panel lateral dedicado que muestra descargas activas y tu biblioteca Myrient; busca, instala y desinstala juegos directamente desde el panel
+- **Limpieza de Plataformas**: Las entradas de plataforma no válidas (ej. /README, /files) se filtran automáticamente
+- **Panel Lateral**: Panel lateral dedicado con descargas activas y tu biblioteca Myrient
 
 #### 📥 Descargar
 
@@ -310,7 +316,7 @@ Todas las extensiones están publicadas bajo la **MIT License**.
 | 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
 | 🎨 **itch.io** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
 | 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.15.0-red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 🎯 **Myrient** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.17.0-orange)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
 | 📂 **EmuLibrary** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
 
 > **Nota:** Las versiones en la tabla se muestran de forma estática y deben actualizarse manualmente al publicar nuevas versiones. Haz clic en un badge para ver la última release.

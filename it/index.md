@@ -180,7 +180,7 @@ Plugin per Playnite per fare backup dei tuoi salvataggi usando Ludusavi.
 
 ### 🎯 Myrient Library
 
-**Versione:** 0.15.0
+**Versione:** 0.17.0
 **Autore:** sassoanarchico
 **Tipo:** Game Library
 **Status:** 🚧 Work in Progress
@@ -189,14 +189,20 @@ Estensione per Playnite che consente di cercare, importare e scaricare ROM dal s
 
 #### ✨ Funzionalità Principali
 
-- **Ricerca ROM**: Cerca singole ROM su Myrient con filtro per piattaforma
+- **Ricerca ROM**: Cerca singole ROM su Myrient con filtro per piattaforma, lingua e tipo
+- **Filtri di Ricerca**: Filtra i risultati per lingua, nascondi le demo e nascondi le ROM beta/alpha/prototype
 - **Importazione Bulk**: Importa tutte le ROM di una collezione/piattaforma specifica
-- **Download Diretto**: Scarica ROM direttamente dal sito Myrient quando clicchi "Install"
+- **Download Diretto**: Scarica ROM direttamente da Myrient tramite aria2c con 16 connessioni parallele
+- **Progresso Download**: Finestra in tempo reale con velocità, velocità media e tempo rimanente
+- **Completamento Download**: La finestra di progresso mostra un riepilogo finale con statistiche prima della chiusura
+- **Supporto Tema**: L'interfaccia di download si adatta automaticamente al tema di Playnite (chiaro/scuro)
 - **Organizzazione File**: Organizza i file scaricati per piattaforma e/o collezione
-- **Verifica Integrità**: Verifica l'integrità dei file scaricati tramite hash
-- **Gestione Coda Download**: Supporto per download multipli con coda
+- **Estrazione Automatica**: Archivi ZIP estratti automaticamente dopo il download
+- **Rilevamento ROM Nidificate**: Gestisce archivi con cartelle nidificate (es. game.zip > game/ > game.nds)
+- **Config Emulatore**: Configurazione emulatore per piattaforma applicata automaticamente dopo l'installazione
 - **Collezioni Supportate**: Supporto per No-Intro, Redump e altre collezioni
-- **Pannello Sidebar**: Pannello laterale dedicato che mostra i download attivi e la tua libreria Myrient; cerca, installa e disinstalla giochi direttamente dal pannello
+- **Pulizia Piattaforme**: Le voci di piattaforma non valide (es. /README, /files) vengono filtrate automaticamente
+- **Pannello Sidebar**: Pannello laterale dedicato con download attivi e libreria Myrient
 
 #### 📥 Download
 
@@ -316,7 +322,7 @@ Tutte le estensioni sono rilasciate sotto licenza **MIT License**.
 | 🚀 **FastInstall** | ⚠️ Bugfix | [![Version](https://img.shields.io/badge/v1.3.5-yellow)](https://github.com/sassoanarchico/fastinstall-playnite-extension/releases/latest) | Game Library | — | ✅ 2 lingue | [Repo](https://github.com/sassoanarchico/fastinstall-playnite-extension) |
 | 🎨 **itch.io Metadata** | ✅ Working | [![Version](https://img.shields.io/badge/v1.1.0-blue)](https://github.com/sassoanarchico/itchio-metadata-playnite-extension/releases/latest) | Metadata | — | ✅ 2 lingue | [Repo](https://github.com/sassoanarchico/itchio-metadata-playnite-extension) |
 | 💾 **Ludusavi** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.19.8-orange)](https://github.com/sassoanarchico/ludusavi-emulation-playnite/releases/latest) | Generic Plugin | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/ludusavi-emulation-playnite) |
-| 🎯 **Myrient Library** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.15.0-red)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
+| 🎯 **Myrient Library** | 🚧 WIP | [![Version](https://img.shields.io/badge/v0.17.0-orange)](https://github.com/sassoanarchico/myrient-playnite/releases/latest) | Game Library | ✅ | ❌ | [Repo](https://github.com/sassoanarchico/myrient-playnite) |
 | 📂 **EmuLibrary Fork** | ✅ Working | [![Version](https://img.shields.io/badge/v3.5.0-blue)](https://github.com/sassoanarchico/emulibrary-fork/releases/latest) | Game Library | — | ❌ | [Repo](https://github.com/sassoanarchico/emulibrary-fork) |
 
 ### 📊 Legenda Status
